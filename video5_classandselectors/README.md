@@ -1,12 +1,12 @@
 class and selectors:
 
-- <p ciass="error">//
+- <p ciass="error">rrwertetertyyyeyyyy</p>//
 .error{
     color: crimson;
 }
                  =>used for adding red color for a particular paragraph
 
-- <p class="success feedback">//
+- <p class="success feedback">rrwertetertyyyeyyyy</p>//
  p.success.feedback{
     border: 1px dashed brown;
 }

@@ -15,6 +15,7 @@
 
 - <br> used to break the line
 - <img> image tag
+        important properties: alt - The text that shown when image is not loaded/visible, src - source path of the image file
         <img src="img.jpg">
 <hr> horizontal rule tag, used for horizontal line separation
 - <a></a> anchor tab, used for hyper link reference

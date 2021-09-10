@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;/*setting flex direction*/
+    justify-content: flex-end;  
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*background: orangered;*/
+    /* width: 100px; */
+}
+
+ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+    /* background: palegoldenrod; */
+    height:20px;
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    /* background: round; */
+}
+
+ul li img {
+    height:20px;
+    width:20px;
+}
+
+/* "image-container" */
+.image-container{
+    width: 100%;
+    /* background: chartreuse; */
+    /* height: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;/*setting the align to center*/
+    
+}
+
+.items {
+    padding: 5px;
+}
+.items img{
+    height: 40px;
+    width: 40px;
+    margin: 10px 10px 10px 10px;
+}
+ .items p{ 
+    margin: 10px 10px 10px 10px;
+ }
+
+
+ textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.searchbar{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    padding: 15px; 
+    border-radius: 20px; 
+    /* background-color: yellow; */
+    border-style: solid;
+  border-color: yellow;
+}
+
+
+ .searchbutton{
+    padding: 15px;
+   background-color: yellow;
+   justify-content: right;
+
+   border-style: solid;
+   border-color: yellow;
+
+
+
+}
+
+.search button{
+    background-color: yellow;
+   border-radius: 10px;
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.search p::first-letter{
+    
+    font-size: 200%;
+    color: red;
+}
+ 
+
+
+
+
+
+
+
+.country-container{
+
+        vertical-align: bottom ;
+        display: flex;
+    justify-content: center;
+   bottom: 20px;
+
+   bottom: 5%;
+   position: fixed;
+   text-align: center;
+   white-space: nowrap;
+   margin: 10 auto;
+   min-width: 755px;
+   left: 40px;
+   right: 40px;
+    }
+   
+.country{
+    
+    display: inline-block; 
+    padding: 60px;
+    align-items: center;
+    
+}
+
+
+.footer-center ul{
+    display: flex;
+    flex-direction: row;
+  position: fixed;
+  bottom: 0;
+}  
+  
+
+.footer {
+    bottom: 5%;
+    position: fixed;
+    text-align: center;
+    white-space: nowrap;
+    margin: 10 auto;
+    min-width: 755px;
+    left: 40px;
+    right: 40px;
+}

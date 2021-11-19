@@ -1,0 +1,38 @@
+/*
+.error{
+    color: crimson;
+}
+p.success{
+    color: cyan;
+}
+p.success.feedback{
+    border: 1px dashed brown;
+}
+#content{
+    background-color: grey;
+    padding: 20px;
+}
+
+a[href*=".in"]{
+    background-color: cyan;
+    color: darkmagenta;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+*/
+div {
+    color: lawngreen;
+    border: 1px solid red;
+    margin: 40px;
+    font-weight: bold;
+}
+
+p{
+    border: inherit;
+    margin: inherit;
+}
+
+p{
+    color: orange;
+}
